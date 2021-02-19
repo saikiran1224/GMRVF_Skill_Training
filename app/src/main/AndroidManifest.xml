@@ -9,9 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.GMRVFSkillTraining">
-        <activity android:name=".MainActivity">
-
-        </activity>
+        <activity android:name=".general.SignUpActivity"></activity>
+        <activity android:name=".general.LoginActivity" />
+        <activity android:name=".MainActivity" />
         <activity android:name=".general.SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

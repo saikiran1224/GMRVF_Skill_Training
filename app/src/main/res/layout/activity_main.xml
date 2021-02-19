@@ -57,7 +57,7 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/login"
+                android:id="@+id/btnLogin"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
@@ -70,16 +70,16 @@
                 android:transitionName="transition_login" />
 
             <Button
-                android:id="@+id/signup"
+                android:id="@+id/btnSignup"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_marginLeft="10dp"
                 android:layout_weight="1"
                 android:background="@color/colorOrange"
-                android:text="Sign Up"
-                android:textStyle="bold"
                 android:fontFamily="@font/khula"
-                android:textColor="@color/colorWhite" />
+                android:text="Sign Up"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold" />
         </LinearLayout>
 
     </LinearLayout>
